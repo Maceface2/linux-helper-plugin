@@ -100,7 +100,7 @@ fi
 # permitted here, so a safe prefix cannot smuggle in a second command.
 
 if [[ ! $cmd =~ (\;|\&\&|\|\|) ]]; then
-  readonly_re='^[[:space:]]*(sudo[[:space:]]+)?('
+  readonly_re='^[[:space:]]*(sudo[[:space:]]+(-[a-zA-Z]+[[:space:]]+)*)?('
   readonly_re+='systemctl[[:space:]]+(status|--failed|list-units|list-unit-files|list-timers|list-sockets|is-active|is-enabled|is-failed|show|cat|get-default)'
   readonly_re+='|journalctl|systemd-analyze|dmesg'
   readonly_re+='|lsblk|findmnt|df|free|uptime|lscpu|lspci|lsusb|lsmod|uname|hostnamectl|timedatectl|localectl|id|whoami|date|env|printenv|getconf'
