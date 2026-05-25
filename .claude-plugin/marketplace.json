@@ -1,0 +1,15 @@
+{
+  "name": "mason-linux-tools",
+  "owner": {
+    "name": "Mason",
+    "email": "hmo5147@psu.edu"
+  },
+  "description": "Personal Claude Code plugins for this Nobara Linux desktop.",
+  "plugins": [
+    {
+      "name": "nobara-linux-helper",
+      "source": "./plugins/nobara-linux-helper",
+      "description": "Linux desktop assistant with Timeshift-snapshot guardrails."
+    }
+  ]
+}

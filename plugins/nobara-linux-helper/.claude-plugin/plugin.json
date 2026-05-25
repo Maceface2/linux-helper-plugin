@@ -1,0 +1,12 @@
+{
+  "name": "nobara-linux-helper",
+  "displayName": "Nobara Linux Helper",
+  "version": "0.1.0",
+  "description": "Linux desktop assistant for Nobara 43 / KDE Wayland: safe package management, system diagnostics, dual-GPU troubleshooting, and Timeshift-snapshot guardrails.",
+  "author": {
+    "name": "Mason",
+    "email": "hmo5147@psu.edu"
+  },
+  "license": "MIT",
+  "keywords": ["linux", "nobara", "fedora", "kde", "btrfs", "diagnostics"]
+}
